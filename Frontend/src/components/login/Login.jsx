@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss"
-import loginImg from "../../cerner2.png";
+import loginImg from "../../logo.png";
 
 /**
  * This component is used to handle all the login and its events
