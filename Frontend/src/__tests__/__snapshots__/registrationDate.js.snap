@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationDate test matches a snapshot 1`] = `
+<div
+  className="form-group"
+>
+  <div>
+    <label
+      name="Registration Date"
+    >
+      Registration Date
+    </label>
+  </div>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className=""
+        disabled={false}
+        name="startDate"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        type="text"
+        value="07/07/2021"
+      />
+    </div>
+  </div>
+</div>
+`;

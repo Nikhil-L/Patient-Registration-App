@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register test matches a snapshot 1`] = `
+<div
+  className="base-container"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="form"
+      >
+        <div
+          className="form-group"
+        >
+          <div
+            className="text-error"
+          >
+            
+          </div>
+          <label
+            htmlFor="lastName"
+          >
+            First Name
+          </label>
+          <input
+            name="firstName"
+            onChange={[Function]}
+            placeholder="First Name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <div
+            className="text-error"
+          />
+          <label
+            htmlFor="lastName"
+          >
+            Last Name
+          </label>
+          <input
+            name="lastName"
+            onChange={[Function]}
+            placeholder="Last Name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <div>
+            <label
+              className="gender"
+              htmlFor="gender"
+            >
+              Gender
+            </label>
+            <select
+              className="gender"
+              name="gender"
+              onChange={[Function]}
+              value="Male"
+            >
+              <option
+                value="Male"
+              >
+                Male
+              </option>
+              <option
+                value="Female"
+              >
+                Female
+              </option>
+              <option
+                value="Others"
+              >
+                Others
+              </option>
+            </select>
+          </div>
+          <br />
+        </div>
+        <div
+          className="form-group"
+        >
+          <div>
+            <label
+              name="Registration Date"
+            >
+              Registration Date
+            </label>
+          </div>
+          <div
+            className="react-datepicker-wrapper"
+          >
+            <div
+              className="react-datepicker__input-container"
+            >
+              <input
+                className=""
+                disabled={false}
+                name="startDate"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                readOnly={false}
+                type="text"
+                value="07/07/2021"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <div>
+            <label
+              name="DateOfBirth"
+            >
+              Date of Birth
+            </label>
+          </div>
+          <div
+            className="react-datepicker-wrapper"
+          >
+            <div
+              className="react-datepicker__input-container"
+            >
+              <input
+                className=""
+                disabled={false}
+                name="startDate"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                readOnly={false}
+                type="text"
+                value="07/07/2021"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      className="button"
+      type="submit"
+      value="submit"
+    >
+      Register
+    </button>
+  </form>
+</div>
+`;

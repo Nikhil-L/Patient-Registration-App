@@ -1,0 +1,76 @@
+.heading{
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    background-color: #434f5a;
+    text-align: center;
+}
+
+.Sidebar{
+    width: 200px;
+    height: 100%;
+    background-color: #2f4050;
+}
+
+.welcome{
+    font-size: 130%;
+    color: white;
+    width:100%;
+    height:100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+.SidebarList{
+    width: 100%;
+    height: 434px;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    font-size: 130%;
+    margin:0;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+
+#title{
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.active{
+    font-size: 110%;
+    margin:0;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+
+#title :hover{
+    background-color: black;
+}
+
+li :active{
+    background-color: black;
+}
+
+.row :hover{
+    background-color: black;
+}

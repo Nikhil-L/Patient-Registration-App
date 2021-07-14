@@ -1,0 +1,82 @@
+
+.login{
+  background-image: url("../../cerner.jpg");
+  width : 1280px;
+  height: 609px;
+  background-size: cover;
+.base-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 400px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0,.2);
+  
+    .content {
+
+      .image {
+        width: 12em;
+        img {
+          margin-left: 150px;
+          margin-bottom: 40px;
+          width: 100%;
+          height: 100%;
+          align-self: center;
+          object-fit:cover;
+          border-radius:50%;
+        }
+      }
+  
+      .form {
+        margin-top: 0em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .form-group {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: fit-content;
+          .text-error{
+            margin-left: 100px;
+            color: red;
+          }
+          label {
+            font-size: 20px;
+          }
+          input {
+            margin-left:  100px;
+            margin-top: 6px;
+            min-width: 18em;
+            height: 37px;
+            padding: 0px 10px;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            background-color: #f3f3f3;
+            border: 0;
+            border-radius: 4px;
+            margin-bottom: 31px;
+            
+          }
+        }
+      }
+    }
+  
+    .footer {
+      margin-top: 1em;
+      .btn{
+        color : white;
+        background-color: black;
+        width : 100px;
+        height: 35px;
+        align-items: center;
+        align-self: center;
+        margin-left: 200px;
+      }
+    }
+  }
+}
